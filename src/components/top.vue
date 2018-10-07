@@ -6,7 +6,9 @@
         v-model="popupVisible"
         position="left">
         <div class="rightMenu">
-          <iframe src="../images/iiii.svg" frameborder="0"></iframe>
+          <div class="rightimg">
+            <iframe src="../images/cnodejs_light.svg" frameborder="0"></iframe>
+          </div>
           <p>CNode社区</p>
           <div>
             <router-link to='/shouye' :class="{ onw : 'shouye' === $route.path.split('/')[1]}">
@@ -75,7 +77,12 @@ export default {
         height: 500px;
         width: 250px;
         background-color: #444444;
-        padding-top: 160px;
+        .rightimg{
+          display: block;
+          text-align: center;
+          width: 100%;
+          height: 3.5rem;
+        }
         p{
           text-align: center;
           color: #fff;
@@ -100,10 +107,9 @@ export default {
           color: #fff;
         }
         iframe{
-          position: absolute;
           z-index: 99;
-          top: 0;
-          left: -155px;
+          width: 200px;
+          height: 190px;
         }
       }
     }
