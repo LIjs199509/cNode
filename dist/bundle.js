@@ -22212,6 +22212,8 @@ return jQuery;
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data(){
@@ -36508,9 +36510,14 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "rightMenu" }, [
-              _c("iframe", {
-                attrs: { src: "../images/iiii.svg", frameborder: "0" }
-              }),
+              _c("div", { staticClass: "rightimg" }, [
+                _c("iframe", {
+                  attrs: {
+                    src: "../images/cnodejs_light.svg",
+                    frameborder: "0"
+                  }
+                })
+              ]),
               _vm._v(" "),
               _c("p", [_vm._v("CNode社区")]),
               _vm._v(" "),
@@ -36640,7 +36647,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.top[data-v-576b9cf5] {\n  position: relative;\n  background-color: #444444;\n}\n.top .icon[data-v-576b9cf5] {\n    color: #fff;\n    position: absolute;\n    top: 14px;\n    left: 20px;\n}\n.top .icon i[data-v-576b9cf5] {\n      z-index: 999;\n}\n.top .icon .rightMenu[data-v-576b9cf5] {\n      height: 500px;\n      width: 250px;\n      background-color: #444444;\n      padding-top: 160px;\n}\n.top .icon .rightMenu p[data-v-576b9cf5] {\n        text-align: center;\n        color: #fff;\n        font-size: 18px;\n        padding: 10px;\n        display: block;\n}\n.top .icon .rightMenu div[data-v-576b9cf5] {\n        display: block;\n        text-align: center;\n        width: 250px;\n        height: 64px;\n        line-height: 64px;\n}\n.top .icon .rightMenu a[data-v-576b9cf5] {\n        color: white;\n}\n.top .icon .rightMenu .onw[data-v-576b9cf5] {\n        background-color: rgba(158, 255, 100, 0.4);\n        width: 250px;\n        display: block;\n        color: #fff;\n}\n.top .icon .rightMenu iframe[data-v-576b9cf5] {\n        position: absolute;\n        z-index: 99;\n        top: 0;\n        left: -155px;\n}\n.top .img[data-v-576b9cf5] {\n    display: block;\n    text-align: center;\n    padding: 5px;\n    z-index: 50;\n    margin: 0 50px;\n}\n.top .img iframe[data-v-576b9cf5] {\n      width: 140px;\n      height: 40px;\n}\n", ""]);
+exports.push([module.i, "\n.top[data-v-576b9cf5] {\n  position: relative;\n  background-color: #444444;\n}\n.top .icon[data-v-576b9cf5] {\n    color: #fff;\n    position: absolute;\n    top: 14px;\n    left: 20px;\n}\n.top .icon i[data-v-576b9cf5] {\n      z-index: 999;\n}\n.top .icon .rightMenu[data-v-576b9cf5] {\n      height: 500px;\n      width: 250px;\n      background-color: #444444;\n}\n.top .icon .rightMenu .rightimg[data-v-576b9cf5] {\n        display: block;\n        text-align: center;\n        width: 100%;\n        height: 3.5rem;\n}\n.top .icon .rightMenu p[data-v-576b9cf5] {\n        text-align: center;\n        color: #fff;\n        font-size: 18px;\n        padding: 10px;\n        display: block;\n}\n.top .icon .rightMenu div[data-v-576b9cf5] {\n        display: block;\n        text-align: center;\n        width: 250px;\n        height: 64px;\n        line-height: 64px;\n}\n.top .icon .rightMenu a[data-v-576b9cf5] {\n        color: white;\n}\n.top .icon .rightMenu .onw[data-v-576b9cf5] {\n        background-color: rgba(158, 255, 100, 0.4);\n        width: 250px;\n        display: block;\n        color: #fff;\n}\n.top .icon .rightMenu iframe[data-v-576b9cf5] {\n        z-index: 99;\n        width: 200px;\n        height: 190px;\n}\n.top .img[data-v-576b9cf5] {\n    display: block;\n    text-align: center;\n    padding: 5px;\n    z-index: 50;\n    margin: 0 50px;\n}\n.top .img iframe[data-v-576b9cf5] {\n      width: 140px;\n      height: 40px;\n}\n", ""]);
 
 // exports
 
