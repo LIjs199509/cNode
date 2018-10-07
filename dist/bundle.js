@@ -36867,8 +36867,8 @@ var staticRenderFns = [
       _c("span", { staticClass: "li" }, [_vm._v("源码地址")]),
       _vm._v(" "),
       _c("span", { staticClass: "describe" }, [
-        _c("a", { attrs: { href: "https://coding.net/u/Qwest/p/cNode/git" } }, [
-          _vm._v("\n       https://coding.net/u/Qwest/p/cNode/git\n      ")
+        _c("a", { attrs: { href: "https://github.com/LIjs199509/cNode" } }, [
+          _vm._v("\n       https://github.com/LIjs199509/cNode\n      ")
         ])
       ]),
       _vm._v(" "),

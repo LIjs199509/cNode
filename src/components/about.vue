@@ -8,8 +8,8 @@
       </span>
       <span class="li">源码地址</span>
       <span class="describe">
-        <a href="https://coding.net/u/Qwest/p/cNode/git">
-         https://coding.net/u/Qwest/p/cNode/git
+        <a href="https://github.com/LIjs199509/cNode">
+         https://github.com/LIjs199509/cNode
         </a>
       </span>
       <span class="li">技术支持</span>
